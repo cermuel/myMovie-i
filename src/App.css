@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(98, 98, 243);
+}
+.header {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inputText {
+  padding: 10px;
+  border: 3px solid rgb(62, 62, 224);
+  margin-top: 20px;
+  margin-left: 8%;
+  border-radius: 8px 0px 0px 8px;
+  width: 80%;
+  color: rgb(62, 62, 224);
+  font-weight: 700;
+  box-shadow: 2px 2px 7px rgb(62, 62, 224);
+}
+.inputText:focus {
+  box-shadow: none;
+}
+button {
+  width: 4%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(62, 62, 224);
+  color: white;
+  border-radius: 0px 8px 8px 0px;
+  padding: 1003px;
+  margin-top: 20px;
+  box-shadow: 1.5px 1.7px 6px rgb(62, 62, 224);
+  font-size: medium;
+  text-align: center;
+}
+button:active {
+  box-shadow: none;
+}
+.inputCheckBox {
+  margin-top: 20px;
+}
+.card {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.list-group-item {
+  border: 1px solid rgb(62, 62, 224);
+  font-family: Josefins Sans;
+  font-weight: 550;
+}
+.card-title {
+  font-family: Ubuntu;
+  font-weight: 650;
+  text-transform: uppercase;
+  word-spacing: 1.5px;
+  font-size: 27px;
+}
+.card-text {
+  font-family: Fonts Icons Knowledge FAQ Brygada 1918;
+  font-style: italic;
+}
