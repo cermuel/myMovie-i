@@ -17,7 +17,7 @@ const Main = () => {
   const [showResult, setshowResult] = useState(false);
   const find = () => {
     axios
-      .get(`http://www.omdbapi.com/?s=${search}&apikey=4ea4008f`)
+      .get(`https://www.omdbapi.com/?s=${search}&apikey=4ea4008f`)
       .then((response) => {
         console.log(response.data.Search[amount]);
         setresult({

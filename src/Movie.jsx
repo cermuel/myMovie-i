@@ -27,7 +27,7 @@ const Movie = () => {
     Year: "",
   });
   useEffect(() => {
-    Axios.get(`http://www.omdbapi.com/?i=${id}&apikey=4ea4008f`).then(
+    Axios.get(`https://www.omdbapi.com/?i=${id}&apikey=4ea4008f`).then(
       (response) => {
         console.log(response.data);
         setdetails({
