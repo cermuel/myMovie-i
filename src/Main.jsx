@@ -46,7 +46,10 @@ const Main = () => {
         <div className="container">
           <center>
             <h1 className="header">MOVIE INFO</h1>
-            <a href="" className="siteTwo">
+            <a
+              href="https://movie-info-updated.vercel.app/"
+              className="siteTwo"
+            >
               Movie Info 2.0
             </a>
           </center>
