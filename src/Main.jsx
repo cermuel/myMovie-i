@@ -46,6 +46,9 @@ const Main = () => {
         <div className="container">
           <center>
             <h1 className="header">MOVIE INFO</h1>
+            <a href="" className="siteTwo">
+              Movie Info 2.0
+            </a>
           </center>
           <div className="search">
             <input
@@ -87,7 +90,7 @@ const Main = () => {
                   navigate(`/movie/${result.id}`);
                 }}
                 style={{
-                  color: "rgb(62, 62, 224)",
+                  color: "white",
                   fontWeight: "bold",
                   textDecoration: "underline",
                 }}

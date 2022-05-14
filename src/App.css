@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: rgb(98, 98, 243);
+  font-family: "Poppins";
+  background: #22254b;
 }
 .header {
   color: white;
@@ -19,14 +20,14 @@ body {
 }
 .inputText {
   padding: 10px;
-  border: 3px solid rgb(62, 62, 224);
+  border: 3px solid #373b69;
   margin-top: 20px;
   margin-left: 8%;
   border-radius: 8px 0px 0px 8px;
   width: 80%;
   color: rgb(62, 62, 224);
   font-weight: 700;
-  box-shadow: 2px 2px 7px rgb(62, 62, 224);
+  box-shadow: 2px 2px 7px #373b69;
 }
 .inputText:focus {
   box-shadow: none;
@@ -37,12 +38,12 @@ button {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: rgb(62, 62, 224);
+  background-color: #373b69;
   color: white;
   border-radius: 0px 8px 8px 0px;
   padding: 1003px;
   margin-top: 20px;
-  box-shadow: 1.5px 1.7px 6px rgb(62, 62, 224);
+  box-shadow: 1.2px 1.3px 5px rgb(62, 62, 224);
   font-size: medium;
   text-align: center;
 }
@@ -52,12 +53,19 @@ button:active {
 .inputCheckBox {
   margin-top: 20px;
 }
+.siteTwo {
+  color: white;
+  font-size: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
 .card {
   padding: 10px;
   margin-bottom: 30px;
+  background: #373b69;
 }
 .list-group-item {
-  border: 1px solid rgb(62, 62, 224);
+  border: 1px solid #373b69;
   font-family: Josefins Sans;
   font-weight: 550;
 }
@@ -67,6 +75,7 @@ button:active {
   text-transform: uppercase;
   word-spacing: 1.5px;
   font-size: 27px;
+  color: white;
 }
 .card-text {
   font-family: Fonts Icons Knowledge FAQ Brygada 1918;
